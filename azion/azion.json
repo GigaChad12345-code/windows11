@@ -1,0 +1,63 @@
+{
+  "name": "windows11",
+  "bucket": "windows11-20261024182657",
+  "preset": "react",
+  "env": "production",
+  "prefix": "20261024182650",
+  "rotate-prefix": true,
+  "not-first-run": true,
+  "function": [],
+  "application": {
+    "id": 1792869183,
+    "name": "windows11"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "domain_name": "",
+    "url": ""
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": null,
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 1110909,
+        "name": "Deliver Static Assets and Set Cache Policy",
+        "phase": "request"
+      },
+      {
+        "id": 1110910,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": [
+    {
+      "id": 375249,
+      "name": "windows11"
+    }
+  ],
+  "workloads": {
+    "id": 1792863730,
+    "name": "windows11",
+    "domains": [],
+    "url": "https://ihd6lezzzku.map.azionedge.net",
+    "deployment_id": [
+      {
+        "id": 346116,
+        "name": "windows11"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "id": 190532,
+      "name": "windows11"
+    }
+  ]
+}
